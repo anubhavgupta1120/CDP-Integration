@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T15:24:59 IST" name="Default suite" finished-at="2023-11-16T15:25:03 IST" duration-ms="4417">
+  <suite started-at="2023-11-16T16:24:23 IST" name="Default suite" finished-at="2023-11-16T16:24:29 IST" duration-ms="6542">
     <groups>
     </groups>
-    <test started-at="2023-11-16T15:24:59 IST" name="Default test" finished-at="2023-11-16T15:25:03 IST" duration-ms="4417">
-      <class name="TestFolder.SettingDimensions">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestFolder.SettingDimensions@38c6f217]" started-at="2023-11-16T15:24:59 IST" name="beforeTest" finished-at="2023-11-16T15:25:01 IST" duration-ms="2225" status="PASS">
+    <test started-at="2023-11-16T16:24:23 IST" name="Default test" finished-at="2023-11-16T16:24:29 IST" duration-ms="6542">
+      <class name="TestFolder.ChangeGeoLocation">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestFolder.ChangeGeoLocation@79e2c065]" started-at="2023-11-16T16:24:23 IST" name="beforeTest" finished-at="2023-11-16T16:24:24 IST" duration-ms="1324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="setDimensionTest()[pri:0, instance:TestFolder.SettingDimensions@38c6f217]" started-at="2023-11-16T15:25:01 IST" name="setDimensionTest" finished-at="2023-11-16T15:25:03 IST" duration-ms="2071" status="PASS">
+        <test-method signature="LocationOverride()[pri:0, instance:TestFolder.ChangeGeoLocation@79e2c065]" started-at="2023-11-16T16:24:24 IST" name="LocationOverride" finished-at="2023-11-16T16:24:29 IST" duration-ms="5099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDimensionTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestFolder.SettingDimensions@38c6f217]" started-at="2023-11-16T15:25:03 IST" name="afterTest" finished-at="2023-11-16T15:25:03 IST" duration-ms="100" status="PASS">
+        </test-method> <!-- LocationOverride -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestFolder.ChangeGeoLocation@79e2c065]" started-at="2023-11-16T16:24:29 IST" name="afterTest" finished-at="2023-11-16T16:24:29 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- TestFolder.SettingDimensions -->
+      </class> <!-- TestFolder.ChangeGeoLocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
