@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestFolder.BlockedNetworkRequest">
+      <class name="TestFolder.LogErrors">
         <methods>
           <include name="BlockingNetworkReqTest"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="errorLogging"/>
         </methods>
-      </class> <!-- TestFolder.BlockedNetworkRequest -->
+      </class> <!-- TestFolder.LogErrors -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
