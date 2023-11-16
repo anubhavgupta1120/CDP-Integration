@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestFolder.SettingDimensions">
+      <class name="TestFolder.LogNetworkActivity">
         <methods>
-          <include name="setDimensionTest"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="LoggingTest"/>
         </methods>
-      </class> <!-- TestFolder.SettingDimensions -->
+      </class> <!-- TestFolder.LogNetworkActivity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

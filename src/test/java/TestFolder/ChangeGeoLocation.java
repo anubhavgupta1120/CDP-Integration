@@ -27,7 +27,7 @@ public class ChangeGeoLocation {
 		driver = new ChromeDriver();
 		devTools = driver.getDevTools();
 		devTools.createSession();
-		devTools.send(Emulation.setGeolocationOverride(Optional.of(55), Optional.of(37), Optional.of(1)));
+		devTools.send(Emulation.setGeolocationOverride(Optional.of(40), Optional.of(3), Optional.of(1)));
 //		Map<String, Object> parameters = new HashMap<>();
 //		parameters.put("latitude", 48);
 //		parameters.put("longitude", 2);
